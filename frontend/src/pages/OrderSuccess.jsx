@@ -13,7 +13,7 @@ export default function OrderSuccess() {
                 <p className="text-6xl mb-4">🥭</p>
                 <h1 className="text-2xl font-black text-gray-900 mb-2">No order found</h1>
                 <p className="text-gray-500 mb-6">Try tracking your order with your Order ID.</p>
-                <Link to="/track/search" className="px-6 py-3 bg-amber-500 text-white rounded-2xl font-bold">
+                <Link to="/track" className="px-6 py-3 bg-amber-500 text-white rounded-2xl font-bold">
                     Track Order
                 </Link>
             </div>

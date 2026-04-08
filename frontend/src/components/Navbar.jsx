@@ -31,7 +31,7 @@ export default function Navbar() {
         { to: '/store', label: 'Store' },
         { to: '/my-orders', label: 'My Orders' },
         { to: '/contact', label: 'Contact Us' },
-        { to: '/track/search', label: 'Track Order' },
+        { to: '/track', label: 'Track Order' },
     ];
 
     const userLinks = [];
