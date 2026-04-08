@@ -85,6 +85,10 @@ app.use('/api/admin', adminRoutes);
 // Health check
 app.get('/api/health', (req, res) => res.json({ status: 'OK', message: 'MangoZila API is running 🥭' }));
 
+app.get('/', (req, res) => {
+    res.send('MangoZila API is running 🚀');
+});
+
 // 404 handler (Express v5 compatible — no wildcard '*')
 app.use((req, res) => res.status(404).json({ message: 'Route not found' }));
 
